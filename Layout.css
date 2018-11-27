@@ -145,5 +145,5 @@ nav
     display: grid;
     grid-template-areas: '. . . . .';
     grid-gap: 10px;
-    background-color: #282923;
+    background-color: #FF00E8;
 }
