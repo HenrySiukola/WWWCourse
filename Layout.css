@@ -1,0 +1,149 @@
+body
+{
+//    border:3px solid #6D6E6A;
+    padding-left: 1%;
+    padding-top: 2%;
+	background-color:#282923;
+	font-family: Ubuntu, Helvetica;
+}
+
+h1
+{
+	font-family: Ubuntu, Helvetica;
+	color: #3361FF;
+	background-image: linear-gradient(to right, #42433eFF 10%, #00000000 75%);
+	border-radius: 0.2em;
+	width: 70%;
+	padding: 0.2em;
+}
+
+p
+{
+	color:#EFEFEF;
+	max-width: 700px;
+	min-width: 100px;
+}
+ul
+{
+
+}
+
+nav
+{
+	display: block;
+	shape-outside: border-box;
+}
+
+#map
+{
+	width: 400px;
+	height: 400px;
+}
+
+.topnav
+{
+	background-color: #C0C0C0;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+.topnav a
+{
+    color: #F3F3F3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    display: inline-block;
+}
+
+.topnav a:hover
+{
+    background-color: #DDD;
+    color: black;
+}
+
+.topnav a.active
+{
+    background-color: #D68800;
+    color: white;
+}
+
+.projects li a
+{
+	color: #F3F3F3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    display: inline-block;
+}
+
+.projects li a:hover
+{
+	background-color: #AAA;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-areas: ", , , , ,";
+    grid-column-gap: 10px;
+    background-color: #282923;
+    padding: 10px;
+}
+.item-header
+{
+    color: #F3F3F3;
+    background-color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    grid-area: header;
+}
+
+.item-header ul
+{
+    flex-direction: column;
+}
+
+.item-header li
+{
+    color: #F3F3F3;
+    background-color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    font-size: 17px;
+    grid-area: header;
+}
+
+.item-header a
+{
+    color: #F3F3F3;
+    background-color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.item-main  { grid-area: main; }
+.item-footer { grid-area: footer; }
+
+.grid-header
+{
+    display: grid;
+    grid-template-areas: '. . . . .';
+    grid-gap: 10px;
+    background-color: #282923;
+}
