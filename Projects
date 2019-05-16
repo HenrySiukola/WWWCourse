@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link rel="stylesheet" href="Layout.css">
+	</head>
+<title>Henry Siukola's Portfolio</title>
+
+<body>
+	<div class="body-container">
+        <div class="grid-header">
+            <a href="index.html">Home</a>
+            <a class="active" href="Projects.html">Projects</a>
+            <a href="About.html">About me</a>
+            <a href="Contact.html">Contact</a>
+
+        </div>
+    
+        <div class="item-content"><h1>My projects</h1>
+            <div class="projects">
+                <ul>
+                    <li><a href="https://github.com/drNikker/Tankkipeli">Tanks with Hands: Armed and Treaded</a></li>
+                    <li><a href="https://github.com/OssiMa/ParempiJoulupeli">Santa's Calendar Gift Throw</a></li>
+                    <li><a href="https://github.com/OssiMa/TapperStudio">Tapper Studio</a></li>
+                </ul>
+            </div>
+        
+            <h1>Tanks wiht Hands: Armed and Treaded</h1>
+            <!--<img style="padding-left: 2px;
+            " src="Content/image/TwH.jpg">-->
+
+            <p>Description of Tanks with Hands</p>
+            <video controls volume poster="content/image/TwH.jpg">
+                <source src="Content/webm/TwH_Trailer.webm" type="video/webm">
+            </video>
+
+        
+            <h1>Santa's Calendar Gift Throw</h1>
+            <p>Description of Santa's Calendar Gift Throw
+        
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        
+            <h1>Tapper Studio</h1>
+            <p>Description of Tapper Studio.
+        
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sintdivoccaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <div class="footer"></div>
+
+</body>
+</html>
