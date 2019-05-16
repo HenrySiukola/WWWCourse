@@ -26,6 +26,27 @@
 		    <p>Doesn't seem flat to me</p>
 		    <img src="content/image/Earth.gif" alt="Earth Rotating"/>
 		    <h1>Geolocation</h1>
+			<div id="Location">
+	<div id= "Locator">
+
+	
+	<button onclick="getLocation()">Your coordinates</button>
+
+<p id="test"></p>
+			<script>
+			var x = document.getElementById("test");
+			function getLocation() {
+    			if (navigator.geolocation) {
+       			navigator.geolocation.getCurrentPosition(showPosition);
+    			} else { 
+        		x.innerHTML = "Geolocation is not supported by this browser.";
+    			}
+			}
+			function showPosition(position) {
+    			x.innerHTML = "Latitude: " + position.coords.latitude + 
+    			"<br>Longitude: " + position.coords.longitude;
+			}
+			</script>
 		    <div id="googleMap" style="width:100%;height:400px;"></div>
 			<div id="theMap"></div>
 
