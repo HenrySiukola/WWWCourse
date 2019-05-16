@@ -30,7 +30,7 @@
             " src="Content/image/TwH.jpg">-->
 
             <p>Description of Tanks with Hands</p>
-            <video controls volume poster="content/image/TwH.jpg">
+            <video controls volume poster="content/image/TwH.png">
                 <source src="Content/webm/TwH_Trailer.webm" type="video/webm">
             </video>
 
