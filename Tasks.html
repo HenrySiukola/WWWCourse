@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link rel="stylesheet" href="Layout.css">
+		<script src="./js/map.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOURKEYHERE&callback=getLocation"></script>
+		<script type="text/javascript" src="js/DragAndDrop.js"></script>
+		<script type="text/javascript" src="js/validation.js"></script>
+	</head>
+<title>Henry Siukola's Portfolio</title>
+
+<body>
+	<div class="body-container">
+		<div style="grid-area: empty"></div>
+		<div class="grid-header">
+			<a href="index.html">Home</a>
+			<a href="Projects.html">Projects</a>
+			<a href="About.html">About me</a>
+			<a href="Contact.html">Contact</a>
+			<a class="active" href="Tasks.html">HTML Tasks</a>
+		</div>
+		<div></div>
+		<div class="item-content">
+			<h1>WWW & internet course requirements</h1>
+		    <p>Doesn't seem flat to me</p>
+		    <img src="content/image/Earth.gif" alt="Earth Rotating"/>
+		    <h1>Geolocation</h1>
+		    <div id="googleMap" style="width:100%;height:400px;"></div>
+			<div id="theMap"></div>
+
+			<h1>Drag & Drop</h1>
+			<p>Drag Earth into a box of your choice</p>
+			<div id="drag1" ondrop="drop(event)" ondragover="allowDrop(event)" style="border: solid 5px #555555; width: 449px; height: 260px; margin-bottom: 5%;"></div>
+			<div id="drag2" ondrop="drop(event)" ondragover="allowDrop(event)" style="border: solid 5px #555555; width: 449px; height: 260px; margin-bottom: 5%;"></div>
+			<img id="draggable" src="Content/image/Earth.gif" draggable="true" ondragstart="drag(event)">
+
+			<h1>Form Validation</h1>
+			<p>This form is validated with JavaScript.</p>
+			<form name="infoForm" method="post" onsubmit="return validate()">
+				<div>
+					<label for="name">Name: </label>
+					<input type="text" id="name" name="user_name" required>
+				</div>
+				<div>
+					<label for="email">E-mail: </label>
+					<input type="email" id="mail" name="user_email" required>
+				</div>
+				<div>
+					<label for="message">Message: </label>
+					<p></p>
+					<textarea type="email" id="mail" name="user_message" required></textarea>
+				</div>
+				<div>
+					<button onclick="validate()">Send message</button>
+				</div>
+			</form>
+			<h1>Table</h1>
+			<p>Table of tables</p>
+			<table id="PB">
+				<tr>
+					<th>Table</th>
+					<th>Ikea Table</th>
+					<th>The Other Table</th>
+				</tr>
+				<tr>
+					<th>Material</th>
+					<td>Wood</td>
+					<td>Glass</td>
+				</tr>
+				<tr>
+					<th>Price</th>
+					<td>50$</td>
+					<td>120$</td>
+				</tr>
+				<tr>
+					<th>Durability</th>
+					<td>7/10</td>
+					<td>3/10</td>
+				</tr>
+				<tr>
+					<th>Size</th>
+					<td>Big</td>
+					<td>Medium</td>
+				</tr>
+			</table>
+
+
+		</div>
+
+		<div class="footer"></div>
+	</div>	
+</body>
+</html>
