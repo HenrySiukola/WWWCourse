@@ -147,3 +147,8 @@ nav
     grid-gap: 10px;
     background-color: #FF00E8;
 }
+
+Table{margin: 0 auto;
+  background-color: #eeffdf;
+  border-spacing: 0;
+  border: 0.2em solid #b0fe62; }
