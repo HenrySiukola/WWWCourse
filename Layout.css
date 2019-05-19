@@ -3,7 +3,7 @@ body
 //    border:3px solid #6D6E6A;
     padding-left: 1%;
     padding-top: 2%;
-	background-color: #19FCDD;
+	background-color: #006CFF;
 	font-family: Ubuntu, Helvetica;
 }
 
@@ -50,7 +50,7 @@ nav
 
 .topnav a
 {
-    color: #F3F3F3;
+    color: #F28080;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -63,13 +63,13 @@ nav
 
 .topnav a:hover
 {
-    background-color: #DDD;
+    background-color: #F24B4B;
     color: black;
 }
 
 .topnav a.active
 {
-    background-color: #DB0000;
+    background-color: #570000;
     color: red;
 }
 
