@@ -79,7 +79,7 @@ nav
 .topnav a.active
 {
     background-color: #08545A;
-    color: red;
+    color: black;
 }
 
 .projects li a
