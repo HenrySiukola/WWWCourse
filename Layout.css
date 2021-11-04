@@ -59,7 +59,7 @@ nav
 
 .topnav a
 {
-    color: #F28080;
+    color: #A86D49;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -72,7 +72,7 @@ nav
 
 .topnav a:hover
 {
-    background-color: #F24B4B;
+    background-color: #659999;
     color: black;
 }
 
