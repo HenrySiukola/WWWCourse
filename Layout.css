@@ -11,16 +11,16 @@ body
 //    border:3px solid #6D6E6A;
     padding-left: 1%;
     padding-top: 2%;
-    background-color: #659999; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#659999, #f4791f);
+    background-color: #08545A; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#08545A, #FB9E6D);
 	font-family: Ubuntu, Helvetica;
 }
 
 h1
 {
 	font-family: Ubuntu, Helvetica;
-	color: #FFFFFF;
-	background-image: linear-gradient(to right, #D3D3D3 10%, #00000000 75%);
+	color: #FFC0A1;
+	background-image: linear-gradient(to right, #246A70 10%, #00000000 75%);
 	border-radius: 0.2em;
 	width: 70%;
 	padding: 0.2em;
@@ -28,7 +28,7 @@ h1
 
 p
 {
-	color:#FFFFFF;
+	color:#FFC0A1;
 	max-width: 700px;
 	min-width: 100px;
 }
@@ -51,7 +51,7 @@ nav
 
 .topnav
 {
-	background-color: #D3D3D3;
+	background-color: #246A70;
     overflow: hidden;
     text-align: center;
     align-items: center;
@@ -63,7 +63,7 @@ nav
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 8em;
@@ -72,19 +72,19 @@ nav
 
 .topnav a:hover
 {
-    background-color: #659999;
+    background-color: #FB9E6D;
     color: black;
 }
 
 .topnav a.active
 {
-    background-color: #659999;
+    background-color: #08545A;
     color: red;
 }
 
 .projects li a
 {
-	color: #FFFFFF;
+	color: #FFC0A1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
