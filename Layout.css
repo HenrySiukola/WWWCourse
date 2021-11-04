@@ -29,7 +29,9 @@ h1
 p
 {
 	color: white;
-	max-width: 700px;
+	line-height: 1.5;
+	font-size: 150%;
+	max-width: 1000px;
 	min-width: 100px;
 }
 ul
