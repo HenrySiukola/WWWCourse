@@ -3,7 +3,7 @@ body
 //    border:3px solid #6D6E6A;
     padding-left: 1%;
     padding-top: 2%;
-	background-color: #202020;
+	background-color: linear-gradient(0deg, 355C7D, C06C84 40%, F8B195);
 	font-family: Ubuntu, Helvetica;
 }
 
@@ -42,7 +42,7 @@ nav
 
 .topnav
 {
-	background-color: #C0C0C0;
+	background-color: F67280;
     overflow: hidden;
     text-align: center;
     align-items: center;
@@ -69,7 +69,7 @@ nav
 
 .topnav a.active
 {
-    background-color: #570000;
+    background-color: 6C5B7B;
     color: red;
 }
 
